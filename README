@@ -5,3 +5,16 @@ and screen
 The color scheme assumes a dark background 
 on your terminal. 
 
+Steps to install:
+
+
+$ clone git@github.com:MITx/dotfiles
+$ bash dotfiles/setup.sh
+
+This will create symlinks from $HOME to
+each file and directory
+
+If you have an existing dotfile it will be renamed
+to .<file>.bak
+
+You will need to update .gitconfig with your name and email
