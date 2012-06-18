@@ -90,30 +90,10 @@ _BWHT="\033[1;37m"
 
 
 case `uname -n` in
-    krusty)
-        PAREN_COLOR="\[${_BWHT}\]"
-        MC="\[${_RED}\]" # MC is "my" color.  For logname and hostname
-        DC="\[${_BLU}\]" # DC is default color.  For everything else
-        ;;
-    lisa)
-        PAREN_COLOR="\[${_BBLU}\]"
-        MC="\[${_BYEL}\]"
-        DC="\[${_BCYN}\]" 
-        ;;
-    maggie)
+    *)
         PAREN_COLOR="\[${_GRN}\]"
         MC="\[${_BGRN}\]"
         DC="\[${_BLU}\]"
-        ;;
-    terminus)
-        PAREN_COLOR="\[${_BLU}\]"
-        MC="\[${_CYN}\]"
-        DC="\[${_BLU}\]"
-        ;;
-    *)
-        PAREN_COLOR="\[${_WHT}\]"
-        MC="\[${_BCYN}\]"
-        DC="\[${_CYN}\]"
         ;;
 esac 
 
