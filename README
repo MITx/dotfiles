@@ -1,6 +1,5 @@
 This repo has a collection of dotfiles 
-for setting up your bash shell, git, 
-and screen
+for setting up bash and git
 
 The color scheme assumes a dark background 
 on your terminal. 
