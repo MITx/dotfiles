@@ -5,8 +5,17 @@ and screen
 The color scheme assumes a dark background 
 on your terminal. 
 
-Steps to install:
+bash prompt features
 
+ - Will give you a big prompt, if you don't
+   like big prompts you probably don't want
+   this
+ - Git status in your prompt
+    * tracked/untracked files
+    * branch name
+    * commit status
+ 
+Steps to install:
 
 $ clone git@github.com:MITx/dotfiles
 $ bash dotfiles/setup.sh
