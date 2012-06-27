@@ -11,11 +11,11 @@ abspath () {
 }
 
 DIR=$(dirname $0)
-DOTLINKS=$(find $DIR -maxdepth 1 -name ".*" -type f | grep -v "swp")
-DOTDIRS=$(find $DIR -maxdepth 1 -name ".*.d" -type d)
+DOTLINKS=$(find $DIR -maxdepth 1 -name "dotfile.*" -type f | grep -v "swp")
+DOTDIRS=$(find $DIR -maxdepth 1 -name "dotfile.*.d" -type d)
 LINKS="$DOTLINKS $DOTDIRS"
 for file in $LINKS; do
-    link="$HOME/$(basename $file)"
+    link="$HOME/$(basename $(echo $file | sed s/dotfile//))"
     if [[ -L "$link" ]];then
         echo "skipping $file"
     else

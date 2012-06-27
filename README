@@ -4,7 +4,7 @@ for setting up bash and git
 The color scheme assumes a dark background 
 on your terminal. 
 
-bash prompt features
+Features
 
  - Will give you a big prompt, if you don't
    like big prompts you probably don't want
@@ -13,7 +13,11 @@ bash prompt features
     * tracked/untracked files
     * branch name
     * commit status
- 
+ - Put the return status of the last command in 
+   your prompt
+ - Organize your bash history into the .bash_histories/ dir 
+
+
 Steps to install:
 
 $ clone git@github.com:MITx/dotfiles
