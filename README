@@ -24,5 +24,3 @@ each file and directory
 
 If you have an existing dotfile it will be renamed
 to .<file>.bak
-
-You will need to update .gitconfig with your name and email
