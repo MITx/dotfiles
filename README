@@ -20,7 +20,7 @@ Features
 
 Steps to install:
 
-$ clone git@github.com:MITx/dotfiles
+$ git clone git@github.com:MITx/dotfiles
 $ bash dotfiles/setup.sh
 
 This will create symlinks from $HOME to
